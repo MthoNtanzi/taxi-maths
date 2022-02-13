@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        
+    </head>
+    <body>
+        <div id="main">
+            <div ID="heading">
+                TAXI MATHS
+            </div>
+            <script type="text/javascript" src="taxiMaths.js"></script>
+            <div class="interaction">
+                <label>How much is the taxi:</label>
+                <br/>
+                <input type="text" class="inputBox" id="taxiPriceBox"/>
+            </div>
+            <div class="interaction">
+                <label>How much did they give you:</label>
+                <br/>
+                <input type="text" class="inputBox" id="moneyBox"/>
+            </div>
+            <div class="interaction">
+                <label id="peopleInMoney">How many people in that:</label>
+                <br/>
+                <input type="text" class="inputBox" id="peopleCounter" onclick="numOfPeople()"/>
+            </div>
+            <div class="button">
+                <button id = "calculate" onclick="totalChange()">GO</button>
+            </div>
+        </div>
+    </body>
+</html>
